@@ -1,15 +1,14 @@
 
-import Body from './1component/Body';
-import Header from './1component/Header';
-import Footer from './1component/Footer';
+import Home from './1component/Home';
 import './App.css';
 
 function App() {
   return (
     <>
-    <Header></Header>
-    <Body></Body>
-    <Footer></Footer>
+      <div className='App'>
+        <Home></Home>
+      </div>
+
     </>
   );
 }
