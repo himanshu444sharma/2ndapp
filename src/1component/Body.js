@@ -4,7 +4,7 @@ const Body= () => {
         <>
      
      <div className='myBody'>Body
-     <label>name</label>
+     <label>name:</label>
      <input type="text"></input>
      
      </div>
